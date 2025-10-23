@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "npx vite build",
+    "build": "vite build",
     "preview": "vite preview",
-    "vercel-build": "npm install --legacy-peer-deps && npx vite build"
+    "vercel-build": "npm ci && npx vite build"
   },
   "dependencies": {
     "react": "^18.0.0",
